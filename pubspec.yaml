@@ -46,7 +46,7 @@ dependencies:
   crypt: ^4.2.1
   intl: ^0.19.0
   percent_indicator: ^4.2.2
-  cached_network_image: ^3.2.3
+  cached_network_image: ^3.3.1
   relative_scale: ^2.0.0
   icon_forest: ^1.1.8
 

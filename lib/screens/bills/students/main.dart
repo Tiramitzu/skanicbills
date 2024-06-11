@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:intl/number_symbols_data.dart';
 import 'package:relative_scale/relative_scale.dart';
 import 'package:skanicbills/util.dart';
 
 class InvoiceWidget extends StatefulWidget {
   const InvoiceWidget({
-    Key? key,
+    super.key,
     required this.invoiceIcon,
     required this.invoiceName,
     required this.invoicePaid,
     required this.invoiceTotal,
-  }) : super(key: key);
+  });
 
   final IconData invoiceIcon;
   final String invoiceName;

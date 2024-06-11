@@ -9,7 +9,7 @@ void main() async {
 }
 
 class SeragamBillingScreen extends StatelessWidget {
-  const SeragamBillingScreen({Key? key}) : super(key: key);
+  const SeragamBillingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class SeragamBillingScreen extends StatelessWidget {
 }
 
 class SeragamBilling extends StatefulWidget {
-  const SeragamBilling({Key? key}) : super(key: key);
+  const SeragamBilling({super.key});
 
   @override
   State<SeragamBilling> createState() => _SeragamBillingState();

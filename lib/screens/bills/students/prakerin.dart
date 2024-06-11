@@ -10,7 +10,7 @@ void main() async {
 }
 
 class PrakerinBillingScreen extends StatelessWidget {
-  const PrakerinBillingScreen({Key? key}) : super(key: key);
+  const PrakerinBillingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class PrakerinBillingScreen extends StatelessWidget {
 }
 
 class PrakerinBiling extends StatefulWidget {
-  const PrakerinBiling({Key? key}) : super(key: key);
+  const PrakerinBiling({super.key});
 
   @override
   State<PrakerinBiling> createState() => _PrakerinBillingState();

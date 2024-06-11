@@ -2,7 +2,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:intl/intl.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:relative_scale/relative_scale.dart';
 import 'package:skanicbills/models/invoice.dart';
@@ -14,7 +13,7 @@ void main() async {
 }
 
 class StudentDashboardScreen extends StatelessWidget {
-  const StudentDashboardScreen({Key? key}) : super(key: key);
+  const StudentDashboardScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,7 @@ class StudentDashboardScreen extends StatelessWidget {
 }
 
 class StudentDashboard extends StatefulWidget {
-  const StudentDashboard({Key? key}) : super(key: key);
+  const StudentDashboard({super.key});
 
   @override
   State<StudentDashboard> createState() => _StudentDashboardState();

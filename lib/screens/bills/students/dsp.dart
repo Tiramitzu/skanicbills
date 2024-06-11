@@ -10,7 +10,7 @@ void main() async {
 }
 
 class DSPBillingScreen extends StatelessWidget {
-  const DSPBillingScreen({Key? key}) : super(key: key);
+  const DSPBillingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class DSPBillingScreen extends StatelessWidget {
 }
 
 class DSPBiling extends StatefulWidget {
-  const DSPBiling({Key? key}) : super(key: key);
+  const DSPBiling({super.key});
 
   @override
   State<DSPBiling> createState() => _DSPBillingState();
